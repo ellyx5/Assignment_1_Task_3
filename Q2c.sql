@@ -1,3 +1,4 @@
+USE Golf;
 SELECT distinct m.LastName, m.FirstName, m.MemberID
 FROM Member m, Entry e
 WHERE m.MemberID = e.MemberID
